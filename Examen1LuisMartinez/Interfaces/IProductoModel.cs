@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Examen1LuisMartinez.Interfaces
 {
-    internal interface IProductoModel
+    public interface IProductoModel
     {
+        //public string Id { get; set; }
+
+        public string Nombre { get; set; }
+
+        public double Precio { get; set; }
+
+        public string estado { get; set; }
+
+        //public string ProveedorId { get; set; }
     }
 }
