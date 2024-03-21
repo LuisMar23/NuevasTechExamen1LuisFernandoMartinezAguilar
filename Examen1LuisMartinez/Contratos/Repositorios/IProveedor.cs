@@ -11,7 +11,7 @@ namespace Examen1LuisMartinez.Contratos.Repositorios
     {
         public Task<List<Proveedor>> Listar();
         public Task<Proveedor> Obtener(string id);
-        public Task<Proveedor> Insertar(Proveedor proveedor);
+        public Task<bool> Insertar(Proveedor proveedor);
         public Task<bool> Actualizar(Proveedor proveedor);
         public Task<bool> Eliminar(string partitionkey, string rowkey);
     }
